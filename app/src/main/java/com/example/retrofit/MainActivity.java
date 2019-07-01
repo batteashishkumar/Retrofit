@@ -17,7 +17,7 @@ import retrofit2.Response;
 import retrofit2.Retrofit;
 
 public class MainActivity extends AppCompatActivity {
-//String url;
+
 TextView txt;
 
     @Override
