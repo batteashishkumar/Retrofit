@@ -25,7 +25,7 @@ TextView txt;
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         txt=findViewById(R.id.txt);
-    }
+}
 
     public void call(View view){
 
