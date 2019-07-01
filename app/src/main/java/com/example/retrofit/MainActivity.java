@@ -30,7 +30,7 @@ TextView txt;
     public void call(View view){
 
         Retrofit retrofit = new Retrofit.Builder().baseUrl(Api.BASE_URL).addConverterFactory(GsonConverterFactory.create()).build();
-//        Api api=retrofit.create(Api.class);
+
 
         Call<List<Obj>> call = retrofit.create(Api.class).call();
 
